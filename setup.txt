@@ -1,0 +1,7 @@
+conda create -n RMT
+conda activate RMT
+
+conda install numpy
+conda install matplotlib
+conda install ipython ipykernel
+conda install scipy
