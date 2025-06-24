@@ -8,7 +8,10 @@ def get_script_name() -> str:
     try:
         file = main.__file__
     except AttributeError:
-        file = main.__vsc_ipynb_file__
+        try:
+            file = main.__vsc_ipynb_file__
+        except AttributeError:
+            return None
     return os.path.splitext(os.path.basename(file))[0]
 
 
