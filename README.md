@@ -5,10 +5,10 @@ The random matrix gallery is a curated display of classes of random matrices whe
 Non-hermitian matrices have complex eigenvalues.
 ### Available models
  * [Ginibre ensemble (Circular law)  
-   <img src="images/Ginibre.png" alt="Ginibre ensemble (Circular law)" href="ensembles/Ginibre.ipynb" height="200"/>](ensembles/Ginibre.ipynb)  
+   <img src="images/Ginibre.png" alt="Ginibre ensemble (Circular law)" height="200"/>](ensembles/Ginibre.ipynb)  
    Ginibre, J. (1965). Statistical ensembles of complex, quaternion, and real matrices. Journal of Mathematical Physics, 6(3), 440-449. https://doi.org/10.1063/1.1704292
  * [Ginibre ensemble with correlations (Elliptic law)  
-   <img src="images/Elliptic.png" href="ensembles/Elliptic.ipynb" alt="Ginibre ensemble with correlations (Elliptic law)" height="200"/>](ensembles/Elliptic.ipynb)  
+   <img src="images/Elliptic.png" alt="Ginibre ensemble with correlations (Elliptic law)" height="200"/>](ensembles/Elliptic.ipynb)  
    Sommers, H. J., Crisanti, A., Sompolinsky, H., & Stein, Y. (1988). Spectrum of large random asymmetric matrices. Physical review letters, 60(19), 1895. https://doi.org/10.1103/PhysRevLett.60.1895
  * Non-Hermitian Wishart ensemble (paired Gaussian matrices with conjugate transpose)  
    A Non-Hermitian Generalisation of the Marchenko–Pastur Distribution: From the Circular Law to Multi-criticality https://doi.org/10.1007/s00023-020-00973-7
@@ -29,10 +29,10 @@ Non-hermitian matrices have complex eigenvalues.
 Hermitian matrices have real eigenvalues.
 ### Available models
  * [Wishart ensemble (Marchenko-Pastur law)  
-   <img src="images/Wishart.png" href="ensembles/Wishart.ipynb" alt="Wishart ensemble (Marchenko-Pastur law)" height="200"/>](ensembles/Wishart.ipynb)  
+   <img src="images/Wishart.png" alt="Wishart ensemble (Marchenko-Pastur law)" height="200"/>](ensembles/Wishart.ipynb)  
    Marchenko, V. A., & Pastur, L. A. (1967). Distribution of eigenvalues for some sets of random matrices. Mat. Sb.(NS), 72(114), 4. https://doi.org/10.1070/SM1967v001n04ABEH001994
  * [Gaussian Orthogonal Ensemble (Wigner semicircle law)  
-   <img src="images/Wigner.png" href="ensembles/Wigner.ipynb" alt="Gaussian Orthogonal Ensemble (Wigner semicircle law)" height="200"/>](ensembles/Wigner.ipynb)  
+   <img src="images/Wigner.png" alt="Gaussian Orthogonal Ensemble (Wigner semicircle law)" height="200"/>](ensembles/Wigner.ipynb)  
    Wigner, E. P. (1955). Characteristic Vectors of Bordered Matrices With Infinite Dimensions. Annals of Mathematics, 62(3), 548-564. https://doi.org/10.2307/1970079
 
 ### Other papers of interest

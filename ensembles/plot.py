@@ -52,7 +52,8 @@ def show_complex_spectrum(cx, z, radius=None, center=[0, 0], rotation=1,
 
     if radius is not None:
         ellipsis = plt_patch.Ellipse(center, 2*radius[0], 2*radius[1],
-                                     color='C1', fill=None, angle=angle)
+                                     color='C1', fill=None, angle=angle, 
+                                     linewidth=1.5)
         cx.add_patch(ellipsis)
 
     if show_center:
