@@ -1,10 +1,10 @@
 import os
 import __main__ as main
-
+import typing
 import numpy as np
 
 
-def get_script_name() -> str:
+def get_script_name() -> typing.Union[str, None]:
     try:
         file = main.__file__
     except AttributeError:
