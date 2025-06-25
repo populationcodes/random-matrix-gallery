@@ -1,7 +1,13 @@
 import os
 import __main__ as main
 import typing
+
 import numpy as np
+import scipy
+
+
+def init_randomness(seed=1):
+    np.random.seed(seed)
 
 
 def get_script_name() -> typing.Union[str, None]:
