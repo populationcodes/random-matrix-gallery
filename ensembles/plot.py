@@ -27,7 +27,8 @@ def show_real_spectrum(cx, z, only_positive=False):
 
 # Show an eigenvalue spectrum
 def show_complex_spectrum(cx, z, radius=None, center=[0, 0], rotation=1,
-                          show_center=False, outlier=None, equal_aspect=True):
+                          show_center=False, outlier=None, equal_aspect=True,
+                          show_axis=True):
     if np.abs(rotation) == 0:
         angle = 0
     else:
@@ -77,5 +78,8 @@ def show_complex_spectrum(cx, z, radius=None, center=[0, 0], rotation=1,
         cx.set_xlim([1.1*mx0-0.1*mx1, 1.1*mx1-0.1*mx0])
         cx.set_ylim([1.1*my0-0.1*my1, 1.1*my1-0.1*my0])
 
+    if show_axis:
+        cx.plot([0, 0], cx.get_ylim(), '--k', zorder=-1)
+        cx.plot(cx.get_xlim(), [0, 0], '--k', zorder=-1)
     cx.spines["right"].set_visible(False)
     cx.spines["top"].set_visible(False)
