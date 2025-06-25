@@ -3,6 +3,7 @@ The random matrix gallery is a curated display of classes of random matrices whe
 
 ## Non-Hermitian matrices
 Non-hermitian matrices have complex eigenvalues.
+
 ### Available models
  * [Ginibre ensemble (Circular law)  
    <img src="images/Ginibre.png" alt="Ginibre ensemble (Circular law)" height="200"/>](ensembles/Ginibre.ipynb)  
@@ -10,7 +11,8 @@ Non-hermitian matrices have complex eigenvalues.
  * [Ginibre ensemble with correlations (Elliptic law)  
    <img src="images/Elliptic.png" alt="Ginibre ensemble with correlations (Elliptic law)" height="200"/>](ensembles/Elliptic.ipynb)  
    Sommers, H. J., Crisanti, A., Sompolinsky, H., & Stein, Y. (1988). Spectrum of large random asymmetric matrices. Physical review letters, 60(19), 1895. https://doi.org/10.1103/PhysRevLett.60.1895
- * Non-Hermitian Wishart ensemble (paired Gaussian matrices with conjugate transpose)  
+ * [Non-Hermitian Wishart ensemble (paired Gaussian matrices with conjugate transpose)  
+   <img src="images/nonHermitianWishart.png" alt="Non-Hermitian Wishart ensemble (paired Gaussian matrices with conjugate transpose)" height="200"/>](ensembles/nonHermitianWishart.ipynb)  
    A Non-Hermitian Generalisation of the Marchenko–Pastur Distribution: From the Circular Law to Multi-criticality https://doi.org/10.1007/s00023-020-00973-7
 
 ### Other papers of interest
