@@ -7,16 +7,24 @@ Non-hermitian matrices have complex eigenvalues.
 ### Ginibre ensemble (Circular law)  
 [[open notebook]  
 <img src="images/Ginibre.png" alt="Ginibre ensemble (Circular law)" height="200"/>](ensembles/Ginibre.ipynb)  
+$$\mathrm{eigs}\left(X\right)\quad X\in\mathbb{R}^{N\times N}$$  
+$$x_{ij}\sim\mathcal{N}\left(0, J^2/N\right)$$  
+  
 <code>Ginibre, J. (1965). Statistical ensembles of complex, quaternion, and real matrices. Journal of Mathematical Physics, 6(3), 440-449. [[paper]](https://doi.org/10.1063/1.1704292)</code>
 
 ### Ginibre ensemble with correlations (Elliptic law)  
 [[open notebook]  
 <img src="images/Elliptic.png" alt="Ginibre ensemble with correlations (Elliptic law)" height="200"/>](ensembles/Elliptic.ipynb)  
+$$\mathrm{eigs}\left(X\right)\quad X\in\mathbb{R}^{N\times N}$$  
+$$\left(x_{ij}\atop x_{ji}\right)\sim\mathcal{N}\left(0, \left(1\quad\tau\atop \tau \quad1\right)J^2/N\right)$$  
+  
 <code>Sommers, H. J., Crisanti, A., Sompolinsky, H., & Stein, Y. (1988). Spectrum of large random asymmetric matrices. Physical review letters, 60(19), 1895. [[paper]](https://doi.org/10.1103/PhysRevLett.60.1895)</code>
 
 ### Non-Hermitian Wishart ensemble (paired Gaussian matrices with conjugate transpose)  
 [[open notebook]  
 <img src="images/nonHermitianWishart.png" alt="Non-Hermitian Wishart ensemble (paired Gaussian matrices with conjugate transpose)" height="200"/>](ensembles/nonHermitianWishart.ipynb)  
+$$\mathrm{eigs}\left(XY^*\right)\quad X,Y\in\mathbb{C}^{N\times P},\ \alpha=P/N$$  
+$$\left(x_{ij}\atop y_{ij}\right)\sim\mathcal{N}\left(0, \left(\sigma_x^2\quad\tau\sigma_x\sigma_y\atop \bar{\tau}\sigma_x\sigma_y \quad\sigma_y^2\right)/N\right)$$  
 <code>Akemann, G., Byun, S. S., & Kang, N. G. (2021, April). A non-Hermitian generalisation of the Marchenko–Pastur distribution: from the circular law to multi-criticality. In Annales Henri Poincaré (Vol. 22, pp. 1035-1068). Springer International Publishing. [[paper]](https://doi.org/10.1007/s00023-020-00973-7)</code>
 
 ### Other papers of interest
@@ -37,11 +45,15 @@ Hermitian matrices have real eigenvalues.
 ### Wishart ensemble (Marchenko-Pastur law)  
 [[open notebook]  
 <img src="images/Wishart.png" alt="Wishart ensemble (Marchenko-Pastur law)" height="200"/>](ensembles/Wishart.ipynb)  
+$$\mathrm{eigs}\left(X\right)\quad X\in\mathbb{R}^{P\times N},\ \alpha=P/N$$  
+$$x_{ij}\sim\mathcal{N}\left(0, J^2/N\right)$$  
 <code>Marchenko, V. A., & Pastur, L. A. (1967). Distribution of eigenvalues for some sets of random matrices. Mat. Sb.(NS), 72(114), 4. [[paper]](https://doi.org/10.1070/SM1967v001n04ABEH001994)</code>
 
 ### Gaussian Orthogonal Ensemble (Wigner semicircle law)  
 [[open notebook]  
 <img src="images/Wigner.png" alt="Gaussian Orthogonal Ensemble (Wigner semicircle law)" height="200"/>](ensembles/Wigner.ipynb)  
+$$\mathrm{eigs}\left(X\right)\quad X\in\mathbb{R}^{N\times N}$$  
+$$x_{i>j}\sim\mathcal{N}\left(0, J^2/N\right),\ x_{ji}=x_{ij}$$  
 <code>Wigner, E. P. (1955). Characteristic Vectors of Bordered Matrices With Infinite Dimensions. Annals of Mathematics, 62(3), 548-564. [[paper]](https://doi.org/10.2307/1970079)</code>
 
 ### Other papers of interest
