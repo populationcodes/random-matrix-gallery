@@ -27,8 +27,14 @@ $$\mathrm{eigs}\left(XY^*\right)\quad X,Y\in\mathbb{C}^{N\times P},\ \alpha=P/N$
 $$\left(x_{ij}\atop y_{ij}\right)\sim\mathcal{N}\left(0, \left(\sigma_x^2\quad\tau\sigma_x\sigma_y\atop \bar{\tau}\sigma_x\sigma_y \quad\sigma_y^2\right)/N\right)$$  
 <code>Akemann, G., Byun, S. S., & Kang, N. G. (2021, April). A non-Hermitian generalisation of the Marchenko–Pastur distribution: from the circular law to multi-criticality. In Annales Henri Poincaré (Vol. 22, pp. 1035-1068). Springer International Publishing. [[paper]](https://doi.org/10.1007/s00023-020-00973-7)</code>
 
+### Paired Gaussian matrices with pseudo-inverse
+[[open notebook]  
+<img src="images/pseudoInverse.png" alt="Paired Gaussian matrices with pseudo-inverse" height="200"/>](ensembles/pseudoInverse.ipynb)  
+$$\mathrm{eigs}\left(XY^\dagger\right)\quad X,Y\in\mathbb{C}^{N\times P},\ \alpha=P/N$$  
+$$\left(x_{ij}\atop y_{ij}\right)\sim\mathcal{N}\left(0, \left(\sigma_x^2\quad\tau\sigma_x\sigma_y\atop \bar{\tau}\sigma_x\sigma_y \quad\sigma_y^2\right)/N\right)$$  
+<code>Cohen, U. (2025). Eigenvalue spectrum support of paired random matrices with pseudo-inverse. arXiv preprint arXiv:2506.21244. [[paper]](https://doi.org/10.48550/arXiv.2506.21244)</code>
+
 ### Other papers of interest
- * Non-Hermitian Wishart ensemble (paired Complex Gaussian matrices with conjugate transpose)
  * Ginibre ensemble with additive and multiplicative terms  
    <code>Ahmadian, Y., Fumarola, F., & Miller, K. D. (2015). Properties of networks with partially structured and partially random connectivity. Physical Review E, 91(1), 012820. [[paper]](https://doi.org/10.1103/PhysRevE.91.012820)</code>
  * Ginibre ensemble with generalized correlations  
@@ -57,14 +63,21 @@ $$x_{i>j}\sim\mathcal{N}\left(0, J^2/N\right),\ x_{ji}=x_{ij}$$
 <code>Wigner, E. P. (1955). Characteristic Vectors of Bordered Matrices With Infinite Dimensions. Annals of Mathematics, 62(3), 548-564. [[paper]](https://doi.org/10.2307/1970079)</code>
 
 ### Other papers of interest
+ * Lévy ensambles  
+   <code>Burda, Z., Janik, R. A., Jurkiewicz, J., Nowak, M. A., Papp, G., & Zahed, I. (2002). Free random Lévy matrices. Physical Review E, 65(2), 021106. [[paper]](https://doi.org/10.1103/PhysRevE.65.021106)</code>
+ * Wigner-Lévy ensambles  
+   <code>Burda, Z., Jurkiewicz, J., Nowak, M. A., Papp, G., & Zahed, I. (2007). Free random lévy and wigner-lévy matrices. Physical Review E—Statistical, Nonlinear, and Soft Matter Physics, 75(5), 051126. [[paper]](https://doi.org/10.1103/PhysRevE.75.051126)</code>
+ * Division of Gaussian and normalised RV  
+   <code>Bohigas, O., de Carvalho, J. X., & Pato, M. P. (2008). Disordered ensembles of random matrices. Physical Review E—Statistical, Nonlinear, and Soft Matter Physics, 77(1), 011122. [[paper]](https://doi.org/10.1103/PhysRevE.77.011122)</code>
  * Extensive spike model  
    <code>Landau, I. D., Mel, G. C., & Ganguli, S. (2023). Singular vectors of sums of rectangular random matrices and optimal estimation of high-rank signals: The extensive spike model. Physical Review E, 108(5), 054129. [[paper]](https://doi.org/10.1103/PhysRevE.108.054129)</code>
 
 ## More information
-The random matrix gallery is a curated display of classes of random matrices where the eigenvalue spectrum is known. It is probably biased by personal familiarity toward mathematical physics works.
+The random matrix gallery is a curated display of classes of random matrices where the eigenvalue spectrum is known. It is probably biased by personal familiarity toward mathematical physics works, and is definitely biased when presenting works by the author.
 
- * Any feedback is most welcome. 
- * Suggestions for missing ensembles are most welcome, but should include relevant code samples similar in spirit to the examples in the available ensembles.
- * If you found an error or you wish to contribue please contact population.codes (at gmail) or populationcodes (at github).
+ * Any feedback is most welcome!
+   + Suggestions for missing ensembles are welcome. Please provide relevant code samples, similar to the examples in the available ensembles, to improve their chances to be included in the list.
+   + If you found an error or you wish to contribue please contact population.codes (at gmail) or populationcodes (at github).
  * See setup.txt for setting up the environment if you wish to run the project locally.
  * All rights reserved to the author.
+ * Created and curated by Uri Cohen [[personal website]](https://uricohen.github.io/).
