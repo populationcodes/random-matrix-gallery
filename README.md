@@ -63,9 +63,9 @@ $$x_{i>j}\sim\mathcal{N}\left(0, J^2/N\right),\ x_{ji}=x_{ij}$$
 <code>Wigner, E. P. (1955). Characteristic Vectors of Bordered Matrices With Infinite Dimensions. Annals of Mathematics, 62(3), 548-564. [[paper]](https://doi.org/10.2307/1970079)</code>
 
 ### Other papers of interest
- * Lévy ensambles  
+ * Lévy ensembles  
    <code>Burda, Z., Janik, R. A., Jurkiewicz, J., Nowak, M. A., Papp, G., & Zahed, I. (2002). Free random Lévy matrices. Physical Review E, 65(2), 021106. [[paper]](https://doi.org/10.1103/PhysRevE.65.021106)</code>
- * Wigner-Lévy ensambles  
+ * Wigner-Lévy ensembles  
    <code>Burda, Z., Jurkiewicz, J., Nowak, M. A., Papp, G., & Zahed, I. (2007). Free random lévy and wigner-lévy matrices. Physical Review E—Statistical, Nonlinear, and Soft Matter Physics, 75(5), 051126. [[paper]](https://doi.org/10.1103/PhysRevE.75.051126)</code>
  * Division of Gaussian and normalised RV  
    <code>Bohigas, O., de Carvalho, J. X., & Pato, M. P. (2008). Disordered ensembles of random matrices. Physical Review E—Statistical, Nonlinear, and Soft Matter Physics, 77(1), 011122. [[paper]](https://doi.org/10.1103/PhysRevE.77.011122)</code>
